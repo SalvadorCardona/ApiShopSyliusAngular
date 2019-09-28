@@ -1,8 +1,11 @@
-import { NgModule } from "@angular/core";
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
-import { AppInfoService } from "./app-info.service";
+import { LoaderComponent } from './loader/loader.component';
 
 @NgModule({
-	providers: [AppInfoService],
+  imports: [CommonModule],
+  declarations: [LoaderComponent],
+  exports: [LoaderComponent]
 })
-export class AppSharedModule {}
+export class SharedModule {}

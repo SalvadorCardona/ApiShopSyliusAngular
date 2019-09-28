@@ -1,2 +1,2 @@
-export * from "./app-info.service";
-export * from "./shared.module";
+export * from './shared.module';
+export * from './loader/loader.component';
