@@ -1,1 +1,4 @@
 ./swagger_docs.json
+./env
+./back/.env
+./front/.env
