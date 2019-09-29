@@ -18,19 +18,19 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist",
-            "index": "src/index.html",
-            "main": "src/main.ts",
+            "index": "src/build/index.html",
+            "main": "src/build/main.ts",
             "tsConfig": "tsconfig.app.json",
             "polyfills": "src/polyfills.ts",
             "assets": [
-              "src/favicon.ico",
-              "src/apple-touch-icon.png",
-              "src/robots.txt",
-              "src/manifest.json",
-              "src/assets"
+              "src/build/favicon.ico",
+              "src/build/apple-touch-icon.png",
+              "src/build/robots.txt",
+              "src/build/manifest.json",
+              "src/app/assets"
             ],
             "styles": [
-              "src/main.scss"
+              "src/build/main.scss"
             ],
             "scripts": []
           },

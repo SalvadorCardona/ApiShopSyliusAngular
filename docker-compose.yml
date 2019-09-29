@@ -6,18 +6,35 @@ version: '3.1'
 services:
 
   mysql:
-    image: mysql:5.7
-    container_name: sf4_mysql
-    command: mysqld --initialize-insecure
-    volumes:
-      - .docker/data/db:/var/lib/mysql
-    ports:
-      - 3306:3306
+    image: percona:5.7
+    command: 
+      - --disable-partition-engine-check
+      - --innodb_use_native_aio=0
     environment:
-      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
-      MYSQL_DATABASE: ${MYSQL_DATABASE}
-      MYSQL_USER: ${MYSQL_USER}
-      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+      - MYSQL_DATABASE=${MYSQL_DATABASE}
+      - MYSQL_USER=${MYSQL_USER}
+      - MYSQL_PASSWORD=${MYSQL_ROOT_PASSWORD}
+    volumes:
+      # - mysql-data:/var/lib/mysql:rw
+      # you may use a bind-mounted host directory instead, so that it is harder to accidentally remove the volume and lose all your data!
+       - ./docker/mysql/data:/var/lib/mysql:rw,delegated
+    ports:
+      - "3306:3306"
+      
+  # mysql:
+  #   image: mysql:5.7
+  #   container_name: sf4_mysql
+  #   command: mysqld --initialize-insecure
+  #   volumes:
+  #     - .docker/data/db:/var/lib/mysql
+  #   ports:
+  #     - 3306:3306
+  #   environment:
+  #     MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+  #     MYSQL_DATABASE: ${MYSQL_DATABASE}
+  #     MYSQL_USER: ${MYSQL_USER}
+  #     MYSQL_PASSWORD: ${MYSQL_PASSWORD}
 
   php:
     image: php:7.2-cli
