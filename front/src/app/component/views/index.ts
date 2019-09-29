@@ -8,4 +8,4 @@ export default {
   ShellModule,
   AboutModule,
   LoginModule
-}
+};
