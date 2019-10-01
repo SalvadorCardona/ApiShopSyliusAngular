@@ -7,12 +7,12 @@ import { TranslateModule } from '@ngx-translate/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { environment } from '@env/environment';
-import { CoreModule } from '@app/../module/core';
-import { SharedModule } from './component/shared';
+import { CoreModule } from '@app/./module/core';
+import { SharedModule } from './component';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
-import views from './component/views/index';
+import views from './views/index';
 
 @NgModule({
   imports: [

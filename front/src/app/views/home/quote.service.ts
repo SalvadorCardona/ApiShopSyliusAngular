@@ -16,7 +16,9 @@ export interface RandomQuoteContext {
   providedIn: 'root'
 })
 export class QuoteService {
-  constructor(private httpClient: HttpClient) {}
+  constructor(private httpClient: HttpClient) {
+    console.log('mes couilles');
+  }
 
   getRandomQuote(context: RandomQuoteContext): Observable<string> {
     return this.httpClient

@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { extract } from '@app/../../../core';
+import { extract } from '@app/module/core';
 import { HomeComponent } from './home.component';
 import { Shell } from '../shell/shell.service';
 

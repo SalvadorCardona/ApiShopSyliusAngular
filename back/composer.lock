@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e0ca39aa5ecdbf8c2771fbadaa37b6bb",
+    "content-hash": "2c4d4643a1b80fa2d56225c71a9487b9",
     "packages": [
         {
             "name": "api-platform/api-pack",
@@ -6513,94 +6513,6 @@
             "time": "2019-08-29T07:57:53+00:00"
         },
         {
-            "name": "sylius/sylius-standard",
-            "version": "v1.6.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Sylius/Sylius-Standard.git",
-                "reference": "f4154e4ad80fe3a24ead5a6615f5940b50e9f0af"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Sylius/Sylius-Standard/zipball/f4154e4ad80fe3a24ead5a6615f5940b50e9f0af",
-                "reference": "f4154e4ad80fe3a24ead5a6615f5940b50e9f0af",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.2",
-                "sylius/sylius": "~1.6.0",
-                "symfony/dotenv": "^4.3",
-                "symfony/flex": "^1.2"
-            },
-            "require-dev": {
-                "behat/behat": "^3.4",
-                "behat/mink": "^1.7@dev",
-                "behat/mink-browserkit-driver": "^1.3",
-                "behat/mink-extension": "^2.2",
-                "behat/mink-selenium2-driver": "^1.3",
-                "friends-of-behat/page-object-extension": "^0.3",
-                "friends-of-behat/suite-settings-extension": "^1.0",
-                "friends-of-behat/symfony-extension": "^2.0",
-                "friends-of-behat/variadic-extension": "^1.1",
-                "lakion/mink-debug-extension": "^1.2.3",
-                "lchrusciel/api-test-case": "^3.0",
-                "phpspec/phpspec": "^5.0",
-                "phpstan/extension-installer": "^1.0",
-                "phpstan/phpstan-doctrine": "^0.11.3",
-                "phpstan/phpstan-shim": "^0.11.7",
-                "phpstan/phpstan-webmozart-assert": "^0.11.2",
-                "phpunit/phpunit": "^6.5",
-                "sensiolabs/security-checker": "^5.0",
-                "stripe/stripe-php": "^6.28",
-                "sylius-labs/coding-standard": "^2.0",
-                "symfony/browser-kit": "^3.4|^4.3",
-                "symfony/debug-bundle": "^3.4|^4.3",
-                "symfony/intl": "^3.4|^4.3",
-                "symfony/web-profiler-bundle": "^3.4|^4.3"
-            },
-            "type": "project",
-            "extra": {
-                "symfony": {
-                    "allow-contrib": false
-                },
-                "branch-alias": {
-                    "dev-master": "1.6-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "App\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Paweł Jędrzejewski"
-                },
-                {
-                    "name": "Sylius project"
-                },
-                {
-                    "name": "Community contributions"
-                }
-            ],
-            "description": "Starting point for projects powered by Sylius eCommerce.",
-            "homepage": "https://sylius.com",
-            "keywords": [
-                "Symfony2",
-                "cart",
-                "distribution",
-                "ecommerce",
-                "shopping",
-                "sylius",
-                "symfony"
-            ],
-            "time": "2019-08-29T08:10:36+00:00"
-        },
-        {
             "name": "sylius/theme-bundle",
             "version": "v1.4.6",
             "source": {
@@ -10995,6 +10907,94 @@
             "time": "2019-09-01T07:51:21+00:00"
         },
         {
+            "name": "sylius/sylius-standard",
+            "version": "v1.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Sylius/Sylius-Standard.git",
+                "reference": "f4154e4ad80fe3a24ead5a6615f5940b50e9f0af"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Sylius/Sylius-Standard/zipball/f4154e4ad80fe3a24ead5a6615f5940b50e9f0af",
+                "reference": "f4154e4ad80fe3a24ead5a6615f5940b50e9f0af",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2",
+                "sylius/sylius": "~1.6.0",
+                "symfony/dotenv": "^4.3",
+                "symfony/flex": "^1.2"
+            },
+            "require-dev": {
+                "behat/behat": "^3.4",
+                "behat/mink": "^1.7@dev",
+                "behat/mink-browserkit-driver": "^1.3",
+                "behat/mink-extension": "^2.2",
+                "behat/mink-selenium2-driver": "^1.3",
+                "friends-of-behat/page-object-extension": "^0.3",
+                "friends-of-behat/suite-settings-extension": "^1.0",
+                "friends-of-behat/symfony-extension": "^2.0",
+                "friends-of-behat/variadic-extension": "^1.1",
+                "lakion/mink-debug-extension": "^1.2.3",
+                "lchrusciel/api-test-case": "^3.0",
+                "phpspec/phpspec": "^5.0",
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan-doctrine": "^0.11.3",
+                "phpstan/phpstan-shim": "^0.11.7",
+                "phpstan/phpstan-webmozart-assert": "^0.11.2",
+                "phpunit/phpunit": "^6.5",
+                "sensiolabs/security-checker": "^5.0",
+                "stripe/stripe-php": "^6.28",
+                "sylius-labs/coding-standard": "^2.0",
+                "symfony/browser-kit": "^3.4|^4.3",
+                "symfony/debug-bundle": "^3.4|^4.3",
+                "symfony/intl": "^3.4|^4.3",
+                "symfony/web-profiler-bundle": "^3.4|^4.3"
+            },
+            "type": "project",
+            "extra": {
+                "symfony": {
+                    "allow-contrib": false
+                },
+                "branch-alias": {
+                    "dev-master": "1.6-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "App\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paweł Jędrzejewski"
+                },
+                {
+                    "name": "Sylius project"
+                },
+                {
+                    "name": "Community contributions"
+                }
+            ],
+            "description": "Starting point for projects powered by Sylius eCommerce.",
+            "homepage": "https://sylius.com",
+            "keywords": [
+                "Symfony2",
+                "cart",
+                "distribution",
+                "ecommerce",
+                "shopping",
+                "sylius",
+                "symfony"
+            ],
+            "time": "2019-08-29T08:10:36+00:00"
+        },
+        {
             "name": "symfony/maker-bundle",
             "version": "v1.13.0",
             "source": {
@@ -11061,6 +11061,235 @@
                 "scaffolding"
             ],
             "time": "2019-08-18T17:34:03+00:00"
+        },
+        {
+            "name": "symfony/profiler-pack",
+            "version": "v1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/profiler-pack.git",
+                "reference": "99c4370632c2a59bb0444852f92140074ef02209"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/profiler-pack/zipball/99c4370632c2a59bb0444852f92140074ef02209",
+                "reference": "99c4370632c2a59bb0444852f92140074ef02209",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0",
+                "symfony/stopwatch": "*",
+                "symfony/twig-bundle": "*",
+                "symfony/web-profiler-bundle": "*"
+            },
+            "type": "symfony-pack",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A pack for the Symfony web profiler",
+            "time": "2018-12-10T12:11:44+00:00"
+        },
+        {
+            "name": "symfony/var-dumper",
+            "version": "v4.3.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/var-dumper.git",
+                "reference": "641043e0f3e615990a0f29479f9c117e8a6698c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/641043e0f3e615990a0f29479f9c117e8a6698c6",
+                "reference": "641043e0f3e615990a0f29479f9c117e8a6698c6",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3",
+                "symfony/polyfill-mbstring": "~1.0",
+                "symfony/polyfill-php72": "~1.5"
+            },
+            "conflict": {
+                "phpunit/phpunit": "<4.8.35|<5.4.3,>=5.0",
+                "symfony/console": "<3.4"
+            },
+            "require-dev": {
+                "ext-iconv": "*",
+                "symfony/console": "~3.4|~4.0",
+                "symfony/process": "~3.4|~4.0",
+                "twig/twig": "~1.34|~2.4"
+            },
+            "suggest": {
+                "ext-iconv": "To convert non-UTF-8 strings to UTF-8 (or symfony/polyfill-iconv in case ext-iconv cannot be used).",
+                "ext-intl": "To show region name in time zone dump",
+                "symfony/console": "To use the ServerDumpCommand and/or the bin/var-dump-server script"
+            },
+            "bin": [
+                "Resources/bin/var-dump-server"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.3-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "Resources/functions/dump.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Component\\VarDumper\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony mechanism for exploring and dumping PHP variables",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "debug",
+                "dump"
+            ],
+            "time": "2019-08-26T08:26:39+00:00"
+        },
+        {
+            "name": "symfony/web-profiler-bundle",
+            "version": "v4.3.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/web-profiler-bundle.git",
+                "reference": "387c36fd133c08bb0d78d8de17c1121681b37a09"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/web-profiler-bundle/zipball/387c36fd133c08bb0d78d8de17c1121681b37a09",
+                "reference": "387c36fd133c08bb0d78d8de17c1121681b37a09",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3",
+                "symfony/config": "^4.2",
+                "symfony/http-kernel": "^4.3",
+                "symfony/routing": "~3.4|~4.0",
+                "symfony/twig-bundle": "~4.2",
+                "symfony/var-dumper": "~3.4|~4.0",
+                "twig/twig": "^1.41|^2.10"
+            },
+            "conflict": {
+                "symfony/dependency-injection": "<3.4",
+                "symfony/form": "<4.3",
+                "symfony/messenger": "<4.2",
+                "symfony/var-dumper": "<3.4"
+            },
+            "require-dev": {
+                "symfony/console": "~3.4|~4.0",
+                "symfony/dependency-injection": "~3.4|~4.0",
+                "symfony/stopwatch": "~3.4|~4.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Bundle\\WebProfilerBundle\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony WebProfilerBundle",
+            "homepage": "https://symfony.com",
+            "time": "2019-08-26T08:26:39+00:00"
+        },
+        {
+            "name": "symfony/web-server-bundle",
+            "version": "v4.3.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/web-server-bundle.git",
+                "reference": "dc26b980900ddf3e9feade14e5b21c029e8ca92f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/web-server-bundle/zipball/dc26b980900ddf3e9feade14e5b21c029e8ca92f",
+                "reference": "dc26b980900ddf3e9feade14e5b21c029e8ca92f",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3",
+                "symfony/config": "~3.4|~4.0",
+                "symfony/console": "~3.4|~4.0",
+                "symfony/dependency-injection": "~3.4|~4.0",
+                "symfony/http-kernel": "~3.4|~4.0",
+                "symfony/polyfill-ctype": "~1.8",
+                "symfony/process": "^3.4.2|^4.0.2"
+            },
+            "suggest": {
+                "symfony/expression-language": "For using the filter option of the log server.",
+                "symfony/monolog-bridge": "For using the log server."
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Bundle\\WebServerBundle\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony WebServerBundle",
+            "homepage": "https://symfony.com",
+            "time": "2019-08-20T14:27:59+00:00"
         }
     ],
     "aliases": [],

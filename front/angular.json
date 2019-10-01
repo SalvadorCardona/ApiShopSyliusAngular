@@ -19,19 +19,17 @@
           "options": {
             "outputPath": "dist",
             "index": "src/build/index.html",
-            "main": "src/build/main.ts",
+            "main": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
             "polyfills": "src/polyfills.ts",
             "assets": [
               "src/build/favicon.ico",
               "src/build/apple-touch-icon.png",
               "src/build/robots.txt",
-              "src/build/manifest.json",
-              "src/app/assets"
+              "src/manifest.json",
+              "src/assets"
             ],
-            "styles": [
-              "src/build/main.scss"
-            ],
+            "styles": ["src/build/main.scss"],
             "scripts": []
           },
           "configurations": {
@@ -105,13 +103,8 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": [
-              "tsconfig.app.json",
-              "tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "tsConfig": ["tsconfig.app.json", "tsconfig.spec.json"],
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -130,12 +123,8 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": [
-              "e2e/tsconfig.e2e.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "tsConfig": ["e2e/tsconfig.e2e.json"],
+            "exclude": ["**/node_modules/**"]
           }
         }
       }

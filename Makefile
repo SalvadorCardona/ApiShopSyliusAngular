@@ -4,23 +4,23 @@ ENVFILE = .env.$(ENV)
 FRONT_FOLDER = ./front
 BACK_FOLDER = ./back
 
-install: copy-env front-install back-install build-doc-open-api
+install: copy-env install-front install-front build-doc-open-api
 
 copy-env:
 	cp $(ENVFILE) $(BACK_FOLDER)/.env && cp $(ENVFILE) $(FRONT_FOLDER)/.env && cp $(ENVFILE) ./.env
 
-front-install:
+install-front:
 	cd front && yarn install
 
-back-install:
+install-front:
 	cd back && composer install
 
-dev-server: front-server back-server
+server-dev: server-front server-back
 
-back-server:
+server-back:
 	cd back/public && php -S localhost:8000
 
-front-server:
+server-front:
 	cd front && yarn start
 
 build-doc-open-api:
