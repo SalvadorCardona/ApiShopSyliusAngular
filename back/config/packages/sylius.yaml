@@ -1,0 +1,10 @@
+sylius_user:
+  resources:
+    shop:
+      user:
+        classes:
+          model: App\Entity\User\User
+#    oauth:
+#      user:
+#        classes:
+#          model: App\Entity\User\OAuth

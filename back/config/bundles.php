@@ -29,4 +29,5 @@ return [
     Sylius\Bundle\UserBundle\SyliusUserBundle::class => ['all' => true],
     Sylius\Bundle\MailerBundle\SyliusMailerBundle::class => ['all' => true],
     Symfony\Bundle\WebProfilerBundle\WebProfilerBundle::class => ['dev' => true, 'test' => true],
+    Sylius\Bundle\ResourceBundle\SyliusResourceBundle::class => ['dev' => true, 'test' => true],
 ];
