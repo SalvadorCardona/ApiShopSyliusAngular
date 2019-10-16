@@ -1,7 +1,9 @@
 ./swagger_docs.json
 ./env
 ./back/.env
+./back2
 ./front/.env
 .idea
 
 vendor
+back2/
