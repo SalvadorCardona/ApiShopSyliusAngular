@@ -4,7 +4,7 @@ ENVFILE = .env.$(ENV)
 FRONT_FOLDER = ./front
 BACK_FOLDER = ./back
 
-install: copy-env install-front install-front build-doc-open-api
+install: copy-env install-front install-back build-doc-open-api
 
 copy-env:
 	cp $(ENVFILE) $(BACK_FOLDER)/.env && cp $(ENVFILE) $(FRONT_FOLDER)/.env && cp $(ENVFILE) ./.env
@@ -12,8 +12,9 @@ copy-env:
 install-front:
 	cd front && yarn install
 
-install-front:
+install-back:
 	cd back && composer install
+	php bin/console doctrine:database:create
 
 server-dev: server-front server-back
 
