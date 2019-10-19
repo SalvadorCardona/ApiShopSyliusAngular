@@ -31,7 +31,7 @@ services:
       - maildev
       - mysql
     ports:
-      - 8000:8000
+      - 8880:8880
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin

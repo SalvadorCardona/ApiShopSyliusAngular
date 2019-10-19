@@ -1,8 +1,0 @@
-{
-  "name": "ApiShopSyliusAngular",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/SalvaCrea/ApiShopSyliusAngular.git",
-  "author": "Salva <hebustha@gmail.com>",
-  "license": "MIT"
-}
