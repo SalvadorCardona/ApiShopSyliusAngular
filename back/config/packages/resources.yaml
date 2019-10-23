@@ -1,0 +1,8 @@
+## api/config/api_platform/resources.yaml
+#App\Entity\Customer:
+#  itemOperations:
+#    get: ~
+#    post_publication:
+#      method: POST
+#      path: /books/{id}/publication
+#      controller: App\Controller\User\Customer:addAction
