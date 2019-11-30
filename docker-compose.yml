@@ -31,7 +31,8 @@ services:
       - maildev
       - mysql
     ports:
-      - 8880:8880
+      - 8000:8000
+    command: php bin/console server:run *:8000
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin

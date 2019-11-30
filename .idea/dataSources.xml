@@ -33,5 +33,11 @@
         <property name="yearIsDateType" value="false" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="Database Locale" uuid="fb6e77ed-d7dd-4b86-b59f-970e97cd7e94">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3307/sylius_dev</jdbc-url>
+    </data-source>
   </component>
 </project>

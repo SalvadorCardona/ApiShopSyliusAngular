@@ -1,7 +1,7 @@
 ./swagger_docs.json
 ./env
 ./back/.env
-./back2
+back-old
 ./front/.env
 .idea
 
