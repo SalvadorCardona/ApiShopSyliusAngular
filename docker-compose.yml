@@ -50,6 +50,7 @@ services:
     container_name: sf4_maildev
     ports:
       - 8001:80
+      - 25:25
 
   node:
     image: "node:10"
