@@ -146,7 +146,7 @@ CMD ["yarn", "watch"]
 
 FROM nginx:${NGINX_VERSION}-alpine AS sylius_nginx
 
-COPY docker/nginx/conf.d/default.conf /etc/nginx/conf.d/
+COPY ../.docker/apache /etc/nginx/conf.d/
 
 WORKDIR /srv/sylius
 

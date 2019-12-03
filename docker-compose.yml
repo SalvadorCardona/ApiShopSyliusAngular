@@ -2,17 +2,18 @@
 # Run docker-compose up
 # Live long and prosper
 
-version: '3.1'
+version: '3.4'
 services:
 
   mysql:
     image: mysql:5.7
     container_name: sf4_mysql
+    command: --default-authentication-plugin=mysql_native_password
     volumes:
       - .docker/data/db:/var/lib/mysql
-      - .docker/mysqld.cnf:/etc/mysql/mysql.conf.d/mysqld.cnf
+#      - .docker/mysqld.cnf:/etc/mysql/mysql.conf.d/mysqld.cnf
     ports:
-      - 3307:3306
+      - 3306:3306
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
       MYSQL_DATABASE: ${MYSQL_DATABASE}
@@ -25,14 +26,20 @@ services:
     working_dir: /home/wwwroot/sf4
     volumes:
       - ./back:/home/wwwroot/sf4
-    environment:
-      - maildev_host=sf4_maildev
     depends_on:
       - maildev
       - mysql
+
+  apache:
+    build: .docker/apache
+    container_name: sf4_apache
     ports:
-      - 8000:8000
-    command: php bin/console server:run *:8000
+        - 8000:80
+    volumes:
+        - .docker/apache/vhosts:/etc/apache2/sites-enabled
+        - ./back:/home/wwwroot/sf4
+    depends_on:
+        - php
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
@@ -50,7 +57,6 @@ services:
     container_name: sf4_maildev
     ports:
       - 8001:80
-      - 25:25
 
   node:
     image: "node:10"

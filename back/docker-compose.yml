@@ -8,7 +8,7 @@ services:
       cache_from:
         - quay.io/sylius/php:latest
         - quay.io/sylius/nodejs:latest
-        - quay.io/sylius/nginx:latest
+        - quay.io/sylius/apache:latest
     image: quay.io/sylius/php:latest
     depends_on:
       - mysql
@@ -49,7 +49,7 @@ services:
       cache_from:
         - quay.io/sylius/php:latest
         - quay.io/sylius/nodejs:latest
-        - quay.io/sylius/nginx:latest
+        - quay.io/sylius/apache:latest
     image: quay.io/sylius/nodejs:latest
     depends_on:
       - php
@@ -70,11 +70,10 @@ services:
       cache_from:
         - quay.io/sylius/php:latest
         - quay.io/sylius/nodejs:latest
-        - quay.io/sylius/nginx:latest
-    image: quay.io/sylius/nginx:latest
+        - quay.io/sylius/apache:latest
+    image: quay.io/sylius/apache:latest
     depends_on:
       - php
-      - nodejs # to ensure correct build order
     volumes:
       - ./public:/srv/sylius/public:ro
       # if you develop on Linux, you may use a bind-mounted host directory instead
