@@ -4,6 +4,5 @@
 back-old
 ./front/.env
 .idea
-
 vendor
-back2/
+
