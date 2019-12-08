@@ -31,7 +31,7 @@ export class AuthenticationService {
       username: context.username,
       token: '123456'
     };
-    this.httpService.get<LoginContext>('http://back.local/api/oauth/v2/token', {params: context})
+    this.httpService.get<LoginContext>('/api/oauth/v2/token', {params: context})
       .subscribe( response => {
           console.log(response)
         });
