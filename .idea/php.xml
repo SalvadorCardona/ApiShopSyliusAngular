@@ -185,29 +185,100 @@
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/back/vendor/behat/mink-browserkit-driver" />
+      <path value="$PROJECT_DIR$/back/vendor/behat/behat" />
+      <path value="$PROJECT_DIR$/back/vendor/behat/mink-extension" />
+      <path value="$PROJECT_DIR$/back/vendor/behat/mink-selenium2-driver" />
+      <path value="$PROJECT_DIR$/back/vendor/behat/gherkin" />
+      <path value="$PROJECT_DIR$/back/vendor/behat/mink" />
+      <path value="$PROJECT_DIR$/back/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/back/vendor/nette/finder" />
+      <path value="$PROJECT_DIR$/back/vendor/nette/robot-loader" />
+      <path value="$PROJECT_DIR$/back/vendor/container-interop/container-interop" />
+      <path value="$PROJECT_DIR$/back/vendor/symplify/better-phpdoc-parser" />
+      <path value="$PROJECT_DIR$/back/vendor/symplify/package-builder" />
+      <path value="$PROJECT_DIR$/back/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/back/vendor/symplify/token-runner" />
+      <path value="$PROJECT_DIR$/back/vendor/symplify/coding-standard" />
+      <path value="$PROJECT_DIR$/back/vendor/symplify/easy-coding-standard" />
+      <path value="$PROJECT_DIR$/back/vendor/stripe/stripe-php" />
+      <path value="$PROJECT_DIR$/back/vendor/lchrusciel/api-test-case" />
+      <path value="$PROJECT_DIR$/back/vendor/slam/php-cs-fixer-extensions" />
+      <path value="$PROJECT_DIR$/back/vendor/theofidry/alice-data-fixtures" />
+      <path value="$PROJECT_DIR$/back/vendor/jean85/pretty-package-versions" />
+      <path value="$PROJECT_DIR$/back/vendor/friendsofphp/php-cs-fixer" />
+      <path value="$PROJECT_DIR$/back/vendor/thecodingmachine/safe" />
+      <path value="$PROJECT_DIR$/back/vendor/nelmio/alice" />
+      <path value="$PROJECT_DIR$/back/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/back/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/back/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/back/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/back/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/back/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/back/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/back/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/back/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/back/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/back/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/back/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/back/vendor/friends-of-behat/page-object-extension" />
+      <path value="$PROJECT_DIR$/back/vendor/friends-of-behat/suite-settings-extension" />
+      <path value="$PROJECT_DIR$/back/vendor/friends-of-behat/symfony-extension" />
+      <path value="$PROJECT_DIR$/back/vendor/friends-of-behat/variadic-extension" />
+      <path value="$PROJECT_DIR$/back/vendor/php-cs-fixer/diff" />
+      <path value="$PROJECT_DIR$/back/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/back/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/back/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/back/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/back/vendor/slevomat/coding-standard" />
+      <path value="$PROJECT_DIR$/back/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/back/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/back/vendor/sylius-labs/coding-standard" />
+      <path value="$PROJECT_DIR$/back/vendor/coduo/php-matcher" />
+      <path value="$PROJECT_DIR$/back/vendor/coduo/php-to-string" />
+      <path value="$PROJECT_DIR$/back/vendor/symfony/class-loader" />
+      <path value="$PROJECT_DIR$/back/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/back/vendor/openlss/lib-array2xml" />
+      <path value="$PROJECT_DIR$/back/vendor/lakion/mink-debug-extension" />
+      <path value="$PROJECT_DIR$/back/vendor/phpspec/php-diff" />
+      <path value="$PROJECT_DIR$/back/vendor/phpspec/phpspec" />
+      <path value="$PROJECT_DIR$/back/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/back/vendor/instaclick/php-webdriver" />
+      <path value="$PROJECT_DIR$/back/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/back/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/back/vendor/phpstan/phpstan-shim" />
+      <path value="$PROJECT_DIR$/back/vendor/phpstan/extension-installer" />
+      <path value="$PROJECT_DIR$/back/vendor/phpstan/phpstan-doctrine" />
+      <path value="$PROJECT_DIR$/back/vendor/phpstan/phpstan-webmozart-assert" />
+      <path value="$PROJECT_DIR$/back/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/back/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/back/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/back/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/back/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/back/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/back/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/back/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/back/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/back/vendor/theseer/tokenizer" />
     </include_path>
   </component>
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter id="91b4d36e-f3ae-443b-8593-3d72e6b7f9be" name="apishopsyliusangular_php:latest" home="docker://DATA" debugger_id="php.debugger.XDebug">
-        <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="apishopsyliusangular_php:latest" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" />
+        <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="php:7.3-fpm-stretch" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" />
       </interpreter>
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="apishopsyliusangular_php:latest">
-        <phpinfo binary_type="PHP" php_cli="/usr/local/bin/php" path_separator=":" version="7.2.10">
-          <additional_php_ini>/usr/local/etc/php/conf.d/docker-php-ext-gd.ini, /usr/local/etc/php/conf.d/docker-php-ext-intl.ini, /usr/local/etc/php/conf.d/docker-php-ext-mysqli.ini, /usr/local/etc/php/conf.d/docker-php-ext-pdo_mysql.ini, /usr/local/etc/php/conf.d/docker-php-ext-sodium.ini, /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini, /usr/local/etc/php/conf.d/docker-php-ext-zip.ini</additional_php_ini>
-          <configuration_file>/usr/local/etc/php/php.ini</configuration_file>
+        <phpinfo binary_type="PHP" php_cli="/usr/local/bin/php" path_separator=":" version="7.3.12">
+          <additional_php_ini>/usr/local/etc/php/conf.d/docker-php-ext-sodium.ini</additional_php_ini>
+          <configuration_file />
           <configuration_options>
             <configuration_option name="include_path" value=".:/usr/local/lib/php" />
           </configuration_options>
-          <debuggers>
-            <debugger_info debugger="xdebug" debugger_version="2.8.1">
-              <debug_extensions />
-            </debugger_info>
-          </debuggers>
+          <debuggers />
           <loaded_extensions>
             <extension name="Core" />
             <extension name="PDO" />
@@ -222,18 +293,14 @@
             <extension name="fileinfo" />
             <extension name="filter" />
             <extension name="ftp" />
-            <extension name="gd" />
             <extension name="hash" />
             <extension name="iconv" />
-            <extension name="intl" />
             <extension name="json" />
             <extension name="libxml" />
             <extension name="mbstring" />
-            <extension name="mysqli" />
             <extension name="mysqlnd" />
             <extension name="openssl" />
             <extension name="pcre" />
-            <extension name="pdo_mysql" />
             <extension name="pdo_sqlite" />
             <extension name="posix" />
             <extension name="readline" />
@@ -242,16 +309,28 @@
             <extension name="sqlite3" />
             <extension name="standard" />
             <extension name="tokenizer" />
-            <extension name="xdebug" />
             <extension name="xml" />
             <extension name="xmlreader" />
             <extension name="xmlwriter" />
-            <extension name="zip" />
             <extension name="zlib" />
           </loaded_extensions>
         </phpinfo>
       </interpreter>
     </phpInfoCache>
   </component>
+  <component name="PhpProjectServersManager">
+    <servers>
+      <server host="back.local" id="86fa5f1b-0894-4a5f-9569-eb7122844f0a" name="back.local" port="8000" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/back" remote-root="/home/wwwroot/sf4" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/back/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
 </project>

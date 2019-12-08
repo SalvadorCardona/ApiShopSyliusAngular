@@ -6,7 +6,7 @@ import { merge } from 'rxjs';
 import { filter, map, switchMap } from 'rxjs/operators';
 
 import { environment } from '@env/environment';
-import { Logger, I18nService, untilDestroyed } from '@app/./module/core';
+import { Logger, I18nService, untilDestroyed } from '@app/./core';
 
 const log = new Logger('App');
 
