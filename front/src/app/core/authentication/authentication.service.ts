@@ -3,6 +3,9 @@ import { Observable, of } from 'rxjs';
 import { HttpService } from '@app/core/http/http.service';
 
 import { Credentials, CredentialsService } from './credentials.service';
+import { environment } from '@env/environment';
+import { ApiService } from '@app/core/http/api/api.service';
+import { LoginContext } from '@app/core/http/api/auth/login.context';
 
 export interface LoginContext {
   username: string;
@@ -18,7 +21,7 @@ export interface LoginContext {
   providedIn: 'root'
 })
 export class AuthenticationService {
-  constructor(private httpService: HttpService, private credentialsService: CredentialsService) {}
+  constructor(private apiService: ApiService, private credentialsService: CredentialsService) {}
 
   /**
    * Authenticates the user.
@@ -31,12 +34,36 @@ export class AuthenticationService {
       username: context.username,
       token: '123456'
     };
-    this.httpService.get<LoginContext>('/api/oauth/v2/token', {params: context})
-      .subscribe( response => {
-          console.log(response)
-        });
-    // this.credentialsService.setCredentials(data, context.remember);
-    // return of(data);
+
+    const loginContext = new LoginContext();
+    loginContext.clientSecret = a;
+    loginContext.clientId = a;
+    loginContext.username = context.username;
+    loginContext.password = context.password;
+
+    let login = {
+      client_id: environment.client_id,
+      client_secret: environment.client_secret,
+      grant_type: 'password',
+      username: context.username,
+      password: context.password
+    };
+
+    this.apiService
+      .auth()
+      .auth(loginContext)
+      .subscribe(
+        response => {
+          console.log(response);
+          let data = response;
+          // this.credentialsService.setCredentials(response, context.remember);
+        },
+        error => {
+          console.log(error);
+        }
+      );
+
+    return of(data);
   }
 
   /**

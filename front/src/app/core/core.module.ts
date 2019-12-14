@@ -6,6 +6,9 @@ import { TranslateModule } from '@ngx-translate/core';
 
 import { RouteReusableStrategy } from './route-reusable-strategy';
 import { HttpService } from './http/http.service';
+import { ApiService } from '@app/core/http/api/api.service';
+import { environment } from '@env/environment';
+import { factory } from '@app/core/http/api/api.service.factory';
 
 @NgModule({
   imports: [CommonModule, HttpClientModule, TranslateModule, RouterModule],
@@ -17,6 +20,11 @@ import { HttpService } from './http/http.service';
     {
       provide: RouteReuseStrategy,
       useClass: RouteReusableStrategy
+    },
+    {
+      provide: ApiService,
+      useClass: HttpClient,
+      useFactory: factory
     }
   ]
 })
