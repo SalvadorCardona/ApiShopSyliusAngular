@@ -1,8 +1,10 @@
 ./swagger_docs.json
 ./env
-./back/.env
+backOld/.env
 back-old
 ./front/.env
 .idea
 vendor
 
+./.docker/data/**
+frontold
